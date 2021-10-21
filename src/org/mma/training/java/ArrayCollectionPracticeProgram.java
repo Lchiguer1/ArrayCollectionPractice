@@ -7,11 +7,10 @@ public class ArrayCollectionPracticeProgram {
 
 	public static void main(String[] args) {
 		String car = " Tesla";
-		String car1 = "BMW";
+		
 
 		//Array is used to store multiple values in a single variable
-		//Creati
-
+		
 		//Creating an Array
 		String[] friendsArray = {"Fatima","Asto","Atiqa"," Kethoom"};
 
@@ -21,10 +20,9 @@ public class ArrayCollectionPracticeProgram {
 		System.out.println(friendsArray[1]);
 		System.out.println(friendsArrayList.get(1));
 
-		//Arrays have fixed size
-		//ArrayList have a dynamiq size
-		//Arrays can hold anything, primitive data type(int, bool, long, etc) or objet like string or any other objet
-		//ArrayList can only hold objects, it can not hold primitives
+		//Arrays have fixed length
+		//ArrayList have a dynamic size
+		
 
 		//Printing a size of an Array and of an ArrayList
 
@@ -33,7 +31,8 @@ public class ArrayCollectionPracticeProgram {
 
 		//How to add an elemnt to the end of An Array or ArrayList
 		//We can't add a new element to Array but We can add it to an ArrayList
-		//Add an element
+		
+		//Add an element to ArrayList
 		friendsArrayList.add("Roqayyah");
 		System.out.println(friendsArrayList.get(4));
 
@@ -45,8 +44,9 @@ public class ArrayCollectionPracticeProgram {
 		System.out.println(friendsArrayList.get(0));
 
 		//Remove an element from an Array or ArrayList
-		//We can't do it with Arrays bc We have fixed length with an Array
+		//We can't do it with Arrays bc they have fixed length 
 
+		//Remove an element from ArrayList
 		friendsArrayList.remove(1);
 		System.out.println(friendsArrayList.get(1));
 
@@ -54,10 +54,10 @@ public class ArrayCollectionPracticeProgram {
 		System.out.println(friendsArrayList.size());
 		
 		//Print an Array and ArrayList
-		System.out.println(friendsArray); //this will print the memory address of that array
+		System.out.println(friendsArray); //this will print only the memory address of that array
 		System.out.println(friendsArrayList); //will print all the elements
 		
-		//ArrayList is part of java collection, easy to add, easy to remove, easy to print, easy to call an object or a methos
+		//ArrayList is part of java collection, easy to add, easy to remove, easy to print, and easy to call an object or a method
 
 
 
